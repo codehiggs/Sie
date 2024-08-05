@@ -2,9 +2,9 @@
 
 /**
 * █ ---------------------------------------------------------------------------------------------------------------------
-* █ ░FRAMEWORK                                  2024-07-08 09:29:12
+* █ ░FRAMEWORK                                  2024-08-05 16:20:07
 * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Orders\Items\Creator\index.php]
-* █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+* █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
 * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
 * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
 * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
 * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
 * █ ---------------------------------------------------------------------------------------------------------------------
 * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+* █  @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
 * █ @link https://www.codehiggs.com
 * █ @Version 1.5.0 @since PHP 7, PHP 8
 * █ ---------------------------------------------------------------------------------------------------------------------
@@ -37,84 +38,85 @@
 **/
 return [
 	// - Orders fields 
-	"label_item"=>"item",
-	"label_order"=>"order",
-	"label_type"=>"type",
-	"label_value"=>"value",
-	"label_amount"=>"amount",
-	"label_description"=>"description",
-	"label_percentage"=>"percentage",
-	"label_author"=>"author",
+	"label_item"=>"Código de Artículo",
+	"label_order"=>"Código de pedido",
+	"label_type"=>"Tipo",
+	"label_value"=>"Valor",
+	"label_amount"=>"Cantidad",
+	"label_description"=>"Descripción",
+	"label_percentage"=>"Porcentaje",
+	"label_author"=>"Autor",
 	"label_created_at"=>"created_at",
 	"label_updated_at"=>"updated_at",
 	"label_deleted_at"=>"deleted_at",
-	"placeholder_item"=>"item",
-	"placeholder_order"=>"order",
-	"placeholder_type"=>"type",
-	"placeholder_value"=>"value",
-	"placeholder_amount"=>"amount",
-	"placeholder_description"=>"description",
-	"placeholder_percentage"=>"percentage",
-	"placeholder_author"=>"author",
+	"placeholder_item"=>"Código de artículo",
+	"placeholder_order"=>"Código de pedido",
+	"placeholder_type"=>"Tipo",
+	"placeholder_value"=>"Valor",
+	"placeholder_amount"=>"Cantidad",
+	"placeholder_description"=>"Descripción",
+	"placeholder_percentage"=>"Porcentaje",
+	"placeholder_author"=>"Autor",
 	"placeholder_created_at"=>"created_at",
 	"placeholder_updated_at"=>"updated_at",
 	"placeholder_deleted_at"=>"deleted_at",
-	"help_item"=>"item",
-	"help_order"=>"order",
-	"help_type"=>"type",
-	"help_value"=>"value",
-	"help_amount"=>"amount",
-	"help_description"=>"description",
-	"help_percentage"=>"percentage",
-	"help_author"=>"author",
+	"help_item"=>"Código de artículo",
+	"help_order"=>"Código de pedido",
+	"help_type"=>"Tipo",
+	"help_value"=>"Valor",
+	"help_amount"=>"Cantidad",
+	"help_description"=>"Descripción",
+	"help_percentage"=>"Porcentaje",
+	"help_author"=>"Autor",
 	"help_created_at"=>"created_at",
 	"help_updated_at"=>"updated_at",
 	"help_deleted_at"=>"deleted_at",
 	// - Orders creator 
-	"create-denied-title"=>"Acceso denegado!",
-	"create-denied-message"=>"Su rol en la plataforma no posee los privilegios requeridos para crear nuevos #plural, por favor póngase en contacto con el administrador del sistema o en su efecto contacte al personal de soporte técnico para que estos le sean asignados, según sea el caso. Para continuar presioné la opción correspondiente en la parte inferior de este mensaje.",
-	"create-title"=>"Crear nuevo #singular",
+	"create-denied-title"=>"¡Acceso denegado!",
+	"create-denied-message"=>"Su rol en la plataforma no posee los privilegios requeridos para crear nuevos pedidos. Por favor, póngase en contacto con el administrador del sistema o, en su defecto, contacte al personal de soporte técnico para que le sean asignados los permisos necesarios, si es el caso. Para continuar, presione la opción correspondiente en la parte inferior de este mensaje.",
+	"create-title"=>"Crear nuevo pedido",
 	"create-errors-title"=>"¡Advertencia!",
-	"create-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
-	"create-duplicate-title"=>"¡#singular existente!",
-	"create-duplicate-message"=>"Este #singular ya se había registrado previamente, presioné continuar en la parte inferior de este mensaje para retornar al listado general de #plural.",
-	"create-success-title"=>"¡#singular registrada exitosamente!",
-	"create-success-message"=>"La #singular se registró exitosamente, para retornar al listado general de #plural presioné continuar en la parte inferior de este mensaje.",
+	"create-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
+	"create-duplicate-title"=>"¡Pedido existente!",
+	"create-duplicate-message"=>"Este pedido ya se había registrado previamente. Presione continuar en la parte inferior de este mensaje para retornar al listado general de pedidos.",
+	"create-success-title"=>"¡Pedido registrado exitosamente!",
+	"create-success-message"=>"La solicitud se registró exitosamente. Para retornar al listado general de pedidos, presione continuar en la parte inferior de este mensaje.",
 	// - Orders viewer 
 	"view-denied-title"=>"¡Acceso denegado!",
-	"view-denied-message"=>"Los roles asignados a su perfil, no le conceden los privilegios necesarios para visualizar #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+	"view-denied-message"=>"Los roles asignados a su perfil no le conceden los privilegios necesarios para visualizar pedidos en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
 	"view-title"=>"Vista",
 	"view-errors-title"=>"¡Advertencia!",
-	"view-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+	"view-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
 	"view-noexist-title"=>"¡No existe!",
 	"view-noexist-message"=>"",
 	"view-success-title"=>"",
 	"view-success-message"=>"",
 	// - Orders editor 
 	"edit-denied-title"=>"¡Advertencia!",
-	"edit-denied-message"=>"Los roles asignados a su perfil, no le conceden los privilegios necesarios para actualizar #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
-	"edit-title"=>"¡Actualizar #singular!",
+	"edit-denied-message"=>"Los roles asignados a su perfil no le conceden los privilegios necesarios para actualizar pedidos en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
+	"edit-title"=>"¡Actualizar pedido!",
 	"edit-errors-title"=>"¡Advertencia!",
-	"edit-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+	"edit-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
 	"edit-noexist-title"=>"¡No existe!",
-	"edit-noexist-message"=>"El elemento que actualizar no existe o se elimino previamente, para retornar al listado general de #plural presioné continuar en la parte inferior de este mensaje. ",
-	"edit-success-title"=>"¡#singular actualizada!",
-	"edit-success-message"=>"Los datos de #singular se <b>actualizaron exitosamente</b>, para retornar al listado general de #plural presioné el botón continuar en la parte inferior del presente mensaje.",
+	"edit-noexist-message"=>"El elemento que intenta actualizar no existe o ha sido eliminado previamente. Para regresar al listado general de pedidos, presione continuar en la parte inferior de este mensaje. ",
+	"edit-success-title"=>"¡Pedido actualizado!",
+	"edit-success-message"=>"Los datos de pedido se <b>actualizaron exitosamente</b>. Para retornar al listado general de pedidos, presione el botón continuar en la parte inferior del presente mensaje.",
 	// - Orders deleter 
 	"delete-denied-title"=>"¡Advertencia!",
-	"delete-denied-message"=>"Los roles asignados a su perfil, no le conceden los privilegios necesarios para eliminar #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
-	"delete-title"=>"¡Eliminar #singular!",
-	"delete-message"=>"Para confirmar la eliminación del #singular <b>%s</b>, presioné eliminar, para retornar al listado general de #plural presioné cancelar.",
+	"delete-denied-message"=>"Los roles asignados a su perfil no le conceden los privilegios necesarios para eliminar pedidos en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
+	"delete-title"=>"¡Eliminar pedido!",
+	"delete-message"=>"Para confirmar la eliminación del pedido <b>%s</b>, presione eliminar. Para retornar al listado general de pedidos, presione cancelar.",
 	"delete-errors-title"=>"¡Advertencia!",
-	"delete-errors-message"=>"Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+	"delete-errors-message"=>"
+Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
 	"delete-noexist-title"=>"¡No existe!",
-	"delete-noexist-message"=>"\El elemento que intenta eliminar no existe o se elimino previamente, para retornar al listado general de #plural presioné continuar en la parte inferior de este mensaje.",
-	"delete-success-title"=>"¡#Singular eliminad@ exitosamente!",
-	"delete-success-message"=>"La #singular se elimino exitosamente, para retornar al listado de general de #plural presioné el botón continuar en la parte inferior de este mensaje.",
+	"delete-noexist-message"=>"El elemento que intenta eliminar no existe o se eliminó previamente. Para retornar al listado general de pedidos, presione continuar en la parte inferior de este mensaje.",
+	"delete-success-title"=>"¡Pedido eliminado exitosamente!",
+	"delete-success-message"=>"El pedido se eliminó exitosamente. Para retornar al listado general de pedidos, presione el botón continuar en la parte inferior de este mensaje.",
 	// - Orders list 
 	"list-denied-title"=>"¡Advertencia!",
-	"list-denied-message"=>"Los roles asignados a su perfil, no le conceden los privilegios necesarios para acceder al listado general de #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
-	"list-title"=>"Listado de #plural",
+	"list-denied-message"=>"Los roles asignados a su perfil no le conceden los privilegios necesarios para acceder al listado general de pedidos en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
+	"list-title"=>"Listado de pedidos",
 ];
 
 ?>

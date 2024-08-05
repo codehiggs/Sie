@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-04-24 06:44:35
+ * █ ░FRAMEWORK                                  2024-08-05 15:07:50
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Grids\Creator\index.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -42,38 +43,38 @@ return [
     "label_name" => "Nombre legible",
     "label_description" => "Descripción (Objetivo de formación)",
     "label_status" => "Estado",
-    "label_author" => "author",
-    "label_date" => "date",
-    "label_time" => "time",
-    "placeholder_grid" => "grid",
-    "placeholder_program" => "program",
+    "label_author" => "Autor",
+    "label_date" => "Fecha",
+    "label_time" => "Hora",
+    "placeholder_grid" => "Código de la malla",
+    "placeholder_program" => "Código del programa",
     "placeholder_name" => "Ej: Técnico Profesional en Prospección y Exploración Minero-Energética",
     "placeholder_description" => "Ej: Operar equipos de geoinformación para la adquisición, procesamiento y almacenamiento de datos geoespaciales, con el propósito de generar productos cartográficos y de teledetección que contribuyan a la precisión en el dimensionamiento de la exploración y explotación minero-energética, aplicando técnicas y procedimientos estandarizados en el marco de proyectos de infraestructura multidisciplinarios.",
-    "placeholder_status" => "status",
-    "placeholder_author" => "author",
-    "placeholder_date" => "date",
-    "placeholder_time" => "time",
+    "placeholder_status" => "Estado",
+    "placeholder_author" => "Autor",
+    "placeholder_date" => "Fecha",
+    "placeholder_time" => "Hora",
     "help_grid" => "Código automático (Obligatorio)",
     "help_program" => "Código heredado (Obligatorio)",
     "help_name" => "Nombre legible (Obligatorio)",
-    "help_description" => "description (Obligatorio)",
+    "help_description" => "Descripción (Obligatorio)",
     "help_status" => "Estado(Obligatorio)",
-    "help_author" => "author",
-    "help_date" => "date",
-    "help_time" => "time",
+    "help_author" => "Autor",
+    "help_date" => "Fecha",
+    "help_time" => "Hora",
     // - Grids creator
-    "create-denied-title" => "Acceso denegado!",
-    "create-denied-message" => "Su rol en la plataforma no posee los privilegios requeridos para crear nuevos mallas, por favor póngase en contacto con el administrador del sistema o en su efecto contacte al personal de soporte técnico para que estos le sean asignados, según sea el caso. Para continuar presioné la opción correspondiente en la parte inferior de este mensaje.",
+    "create-denied-title" => "¡Acceso denegado!",
+    "create-denied-message" => "Su rol en la plataforma no posee los privilegios requeridos para crear nuevas mallas. Por favor, póngase en contacto con el administrador del sistema o, en su defecto, con el personal de soporte técnico para que le sean asignados los permisos necesarios, si es el caso. Para continuar, presione la opción correspondiente en la parte inferior de este mensaje.",
     "create-title" => "Crear nueva malla",
     "create-errors-title" => "¡Advertencia!",
-    "create-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
-    "create-duplicate-title" => "¡malla existente!",
-    "create-duplicate-message" => "Este malla ya se había registrado previamente, presioné continuar en la parte inferior de este mensaje para retornar al listado general de mallas.",
-    "create-success-title" => "¡malla registrada exitosamente!",
-    "create-success-message" => "La malla se registró exitosamente, para retornar al listado general de mallas presioné continuar en la parte inferior de este mensaje.",
+    "create-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
+    "create-duplicate-title" => "¡Malla existente!",
+    "create-duplicate-message" => "Esta malla ya se había registrado previamente. Presione continuar en la parte inferior de este mensaje para retornar al listado general de mallas.",
+    "create-success-title" => "¡Malla registrada exitosamente!",
+    "create-success-message" => "La malla se registró exitosamente. Para retornar al listado general de mallas, presione continuar en la parte inferior de este mensaje.",
     // - Grids viewer
     "view-denied-title" => "¡Acceso denegado!",
-    "view-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para visualizar mallas en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "view-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para visualizar mallas en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "view-title" => "Vista",
     "view-errors-title" => "¡Advertencia!",
     "view-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
@@ -83,28 +84,28 @@ return [
     "view-success-message" => "",
     // - Grids editor
     "edit-denied-title" => "¡Advertencia!",
-    "edit-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para actualizar mallas en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "edit-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para actualizar mallas en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "edit-title" => "¡Actualizar malla!",
     "edit-errors-title" => "¡Advertencia!",
-    "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
     "edit-noexist-title" => "¡No existe!",
-    "edit-noexist-message" => "El elemento que actualizar no existe o se elimino previamente, para retornar al listado general de mallas presioné continuar en la parte inferior de este mensaje. ",
-    "edit-success-title" => "¡malla actualizada!",
-    "edit-success-message" => "Los datos de malla se <b>actualizaron exitosamente</b>, para retornar al listado general de mallas presioné el botón continuar en la parte inferior del presente mensaje.",
+    "edit-noexist-message" => "El elemento que intenta actualizar no existe o fue eliminado previamente. Para retornar al listado general de mallas, presione continuar en la parte inferior de este mensaje.",
+    "edit-success-title" => "¡Malla actualizada!",
+    "edit-success-message" => "Los datos de la malla se <b>actualizaron exitosamente</b>. Para retornar al listado general de mallas, presione el botón continuar en la parte inferior del presente mensaje.",
     // - Grids deleter
     "delete-denied-title" => "¡Advertencia!",
-    "delete-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para eliminar mallas en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "delete-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para eliminar mallas en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "delete-title" => "¡Eliminar malla!",
-    "delete-message" => "Para confirmar la eliminación del malla <b>%s</b>, presioné eliminar, para retornar al listado general de mallas presioné cancelar.",
+    "delete-message" => "Para confirmar la eliminación de la malla <b>%s</b>, presione eliminar. Para retornar al listado general de mallas, presione cancelar.",
     "delete-errors-title" => "¡Advertencia!",
-    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
     "delete-noexist-title" => "¡No existe!",
-    "delete-noexist-message" => "\El elemento que intenta eliminar no existe o se elimino previamente, para retornar al listado general de mallas presioné continuar en la parte inferior de este mensaje.",
-    "delete-success-title" => "¡malla eliminad@ exitosamente!",
-    "delete-success-message" => "La malla se elimino exitosamente, para retornar al listado de general de mallas presioné el botón continuar en la parte inferior de este mensaje.",
+    "delete-noexist-message" => "El elemento que intenta eliminar no existe o se eliminó previamente. Para retornar al listado general de mallas, presione continuar en la parte inferior de este mensaje.",
+    "delete-success-title" => "¡malla eliminada exitosamente!",
+    "delete-success-message" => "La malla se eliminó exitosamente. Para retornar al listado general de mallas, presione el botón continuar en la parte inferior de este mensaje.",
     // - Grids list
     "list-denied-title" => "¡Advertencia!",
-    "list-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para acceder al listado general de mallas en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "list-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para acceder al listado general de mallas en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "list-title" => "Listado de mallas",
 ];
 

@@ -121,17 +121,17 @@ return [
     // - Payments deleter
     "delete-denied-title" => "¡Advertencia!",
     "delete-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para eliminar pagos en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
-    "delete-title" => "¡Eliminar pago!",  h
-    "delete-message" => "Para confirmar la eliminación del pago <b>%s</b>, presioné eliminar, para retornar al listado general de pagos presioné cancelar.",
+    "delete-title" => "¡Eliminar pago!",  
+    "delete-message" => "Para confirmar la eliminación del pago <b>%s</b>, presione eliminar. Para retornar al listado general de pagos, presione cancelar.",
     "delete-errors-title" => "¡Advertencia!",
-    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
     "delete-noexist-title" => "¡No existe!",
-    "delete-noexist-message" => "\El elemento que intenta eliminar no existe o se elimino previamente, para retornar al listado general de pagos presioné continuar en la parte inferior de este mensaje.",
-    "delete-success-title" => "¡#Singular eliminad@ exitosamente!",
-    "delete-success-message" => "La pago se elimino exitosamente, para retornar al listado de general de pagos presioné el botón continuar en la parte inferior de este mensaje.",
+    "delete-noexist-message" => "El elemento que intenta eliminar no existe o se eliminó previamente. Para retornar al listado general de pagos, presione continuar en la parte inferior de este mensaje.",
+    "delete-success-title" => "¡Pago eliminado exitosamente!",
+    "delete-success-message" => "El pago se eliminó exitosamente. Para retornar al listado general de pagos, presione el botón continuar en la parte inferior de este mensaje.",
     // - Payments list
     "list-denied-title" => "¡Advertencia!",
-    "list-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para acceder al listado general de pagos en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "list-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para acceder al listado general de pagos en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "list-title" => "Listado de pagos",
 ];
 

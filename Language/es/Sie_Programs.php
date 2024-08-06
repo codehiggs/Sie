@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-03-14 07:59:35
+ * █ ░FRAMEWORK                                  2024-08-06 09:46:51
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Programs\Creator\index.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -54,12 +55,12 @@ return [
     "label_education_level" => "Nivel de formación",
     "label_awarded_title" => "Título otorgado",
     "label_groups" => "Aplica para grupos",
-    "label_preregistration" => "Preinscripciones Abiertas?",
+    "label_preregistration" => "Preinscripciones Abiertas",
     "label_status" => "Estado del programa",
     "label_author" => "Autor del registro",
-    "label_created_at" => "Creado el",
-    "label_updated_at" => "Actualizado el",
-    "label_deleted_at" => "Eliminado el",
+    "label_created_at" => "created_at",
+    "label_updated_at" => "updated_at",
+    "label_deleted_at" => "deleted_at",
     "placeholder_program" => "Programa",
     "placeholder_reference" => "Ej.: ECO2023A",
     "placeholder_name" => "Ej.: Tecnología en Gestión X",
@@ -75,9 +76,9 @@ return [
     "placeholder_preregistration" => "Preinscripción",
     "placeholder_status" => "Estado",
     "placeholder_author" => "Autor",
-    "placeholder_created_at" => "Creado el",
-    "placeholder_updated_at" => "Actualizado el",
-    "placeholder_deleted_at" => "Eliminado el",
+    "placeholder_created_at" => "created_at",
+    "placeholder_updated_at" => "updated_at",
+    "placeholder_deleted_at" => "deleted_at",
     "help_program" => "Programa",
     "help_reference" => "Referencia del programa (Opcional)",
     "help_name" => "Nombre del programa (Obligatorio)",
@@ -94,9 +95,9 @@ return [
     "help_preregistration" => "Seleccione una opción (Obligatorio)",
     "help_status" => "Seleccione una opción (Obligatorio)",
     "help_author" => "Autor",
-    "help_created_at" => "Creado el",
-    "help_updated_at" => "Actualizado el",
-    "help_deleted_at" => "Eliminado el",
+    "help_created_at" => "created_at",
+    "help_updated_at" => "updated_at",
+    "help_deleted_at" => "deleted_at",
     // - Creador de Programas
     "create-denied-title" => "¡Acceso denegado!",
     "create-denied-message" => "Su rol en la plataforma no posee los privilegios requeridos para crear nuevos programas. Por favor, póngase en contacto con el administrador del sistema o, en su defecto, contacte al personal de soporte técnico para que estos le sean asignados, según sea el caso. Para continuar, presione la opción correspondiente en la parte inferior de este mensaje.",

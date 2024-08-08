@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2023-12-19 10:22:05
+ * █ ░FRAMEWORK                                  2024-08-08 11:48:00
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Security\Views\Users\Delete\form.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -33,7 +34,7 @@ $mfields = model("App\Modules\Security\Models\Security_Users_Fields");
 //[vars]----------------------------------------------------------------------------------------------------------------
 $profile = $mfields->get_Profile($oid);
 $name = $profile['name'];
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 $r = $model->find($oid);
 $message = sprintf(lang("Security.users-delete-message"), $name);
 $back = "/sie/teachers/list/" . lpk();

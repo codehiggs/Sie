@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2023-12-18 11:03:17
+ * █ ░FRAMEWORK                                  2024-08-08 11:35:22
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Security\Views\Users\Editor\processor.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -35,7 +36,7 @@ $authentication = service('authentication');
 //$model = model("App\Modules\Security\Models\Security_Users");
 $mfields = model("App\Modules\Security\Models\Security_Users_Fields");
 //[Process]-----------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 $d = array(
     "user" => $f->get_Value("user"),
     "author" => safe_get_user(),

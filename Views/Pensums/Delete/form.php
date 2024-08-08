@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-04-24 17:16:50
+ * █ ░FRAMEWORK                                  2024-08-08 10:16:50
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Pensums\Delete\form.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -40,7 +41,7 @@ $bootstrap = service("bootstrap");
 //[models]--------------------------------------------------------------------------------------------------------------
 //$model = model("App\Modules\Sie\Models\Sie_Pensums");
 //[vars]----------------------------------------------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Pensums."));
+$f = service("forms", array("lang" => "Sie_Pensums."));
 $r = $model->get_Pensum($oid);
 $name = urldecode($r["pensum"]);
 $message = sprintf(lang("Pensums.delete-message"), $name);

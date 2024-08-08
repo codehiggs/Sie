@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-07-18 06:49:50
+ * █ ░FRAMEWORK                                  2024-08-08 09:22:17
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Headquarters\Editor\processor.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -42,7 +43,7 @@ $dates = service('Dates');
 $strings = service('strings');
 $authentication = service('authentication');
 //[vars]----------------------------------------------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Headquarters."));
+$f = service("forms", array("lang" => "Sie_Headquarters."));
 $model = model("App\Modules\Sie\Models\Sie_Headquarters");
 $d = array(
     "headquarter" => $f->get_Value("headquarter"),

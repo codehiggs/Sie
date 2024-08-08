@@ -2,7 +2,7 @@
 $bootstrap = service('bootstrap');
 $mattachments = model('App\Modules\Storage\Models\Storage_Attachments');
 
-$f = service("forms", array("lang" => "Registrations."));
+$f = service("forms", array("lang" => "Sie_Registrations."));
 $registration = $f->get_Value("registration");
 
 $back = (($oid == "fullscreen") ? "/sie/registrations/cancel/fullscreen" : "/sie/registrations/list/" . lpk());

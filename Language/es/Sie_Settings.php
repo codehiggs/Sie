@@ -2,7 +2,7 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                                                    2024-02-12 10:12:28
+ * █ ░FRAMEWORK                                                                    2024-08-06 14:14:21
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Home\breadcrumb.php]
  * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -27,6 +28,6 @@
  **/
 return [
     'sie-settings-title' => 'Configuración',
-    'sie-settings-message' => 'En este componente hallara todo lo necesario para parametrizar los diferentes elementos del módulo, desde los productos facturables, hasta los listados de títulos otorgables. ',
+    'sie-settings-message' => 'En este componente hallará todo lo necesario para parametrizar los diferentes elementos del módulo, desde los productos facturables hasta los listados de títulos otorgables.',
 ];
 ?>

@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-05-01 08:14:11
+ * █ ░FRAMEWORK                                  2024-05-01 11:10:12
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Registrations\Creator\index.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -37,7 +38,7 @@
  **/
 return [
     // Campos de registro
-    "label_period" => "Periodo",
+    "label_period" => "período",
     "label_journey" => "Jornada",
     "label_program" => "Programa",
     "label_registration" => "Código de registro",
@@ -168,7 +169,7 @@ return [
     "placeholder_border_population" => "Ej: Si",
     "placeholder_identified_population_group" => "Ej: Si",
     "placeholder_highlighted_population" => "Ej: Si",
-    "help_period" => "Seleccione un periodo",
+    "help_period" => "Seleccione un período",
     "help_journey" => "Seleccione una jornada",
     "help_program" => "Seleccione un programa",
     "help_registration" => "Registro",
@@ -209,7 +210,7 @@ return [
     "help_health_regime" => "Régimen de salud",
     "help_document_issue_date" => "Fecha de expedición del documento",
     "help_saber11" => "Saber11",
-    "help_observations" => "Observations",
+    "help_observations" => "Observaciones",
     "help_status" => "Estado",
     "help_linkage_type" => "Requerido",
     "help_ethnic_group" => "Requerido",
@@ -229,52 +230,52 @@ return [
     "help_identified_population_group" => "Requerido",
     "help_highlighted_population" => "Requerido",
     // - Registrations creator
-    "create-denied-title" => "Acceso denegado!",
+    "create-denied-title" => "¡Acceso denegado!",
     "create-denied-message" => "Su rol en la plataforma no posee los privilegios requeridos para crear nuevos #plural, por favor póngase en contacto con el administrador del sistema o en su efecto contacte al personal de soporte técnico para que estos le sean asignados, según sea el caso. Para continuar presioné la opción correspondiente en la parte inferior de este mensaje.",
     "create-title" => "Crear nuevo registro",
     "create-errors-title" => "¡Advertencia!",
-    "create-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
-    "create-duplicate-title" => "¡registro existente!",
-    "create-duplicate-message" => "Este registro ya se había registrado previamente, presioné continuar en la parte inferior de este mensaje para retornar al listado general de #plural.",
+    "create-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
+    "create-duplicate-title" => "¡Rgistro existente!",
+    "create-duplicate-message" => "Este registro ya se había registrado previamente. Presione continuar en la parte inferior de este mensaje para retornar al listado general de registros.",
     "create-success-title" => "¡Registro realizado exitosamente!",
-    "create-success-message" => "El registro se almaceno exitosamente, para retornar al listado general de registros presioné continuar en la parte inferior de este mensaje.",
+    "create-success-message" => "El registro se almacenó exitosamente. Para retornar al listado general de registros, presione continuar en la parte inferior de este mensaje.",
     // - Registrations viewer
     "view-denied-title" => "¡Acceso denegado!",
-    "view-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para visualizar #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "view-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para visualizar registros en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "view-title" => "Vista",
     "view-errors-title" => "¡Advertencia!",
-    "view-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "view-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique e inténtelo nuevamente.",
     "view-noexist-title" => "¡No existe!",
     "view-noexist-message" => "",
     "view-success-title" => "",
     "view-success-message" => "",
     // - Registrations editor
     "edit-denied-title" => "¡Advertencia!",
-    "edit-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para actualizar #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "edit-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para actualizar registros en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "edit-title" => "¡Actualizar registro!",
     "edit-errors-title" => "¡Advertencia!",
-    "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique e inténtelo nuevamente.",
     "edit-noexist-title" => "¡No existe!",
-    "edit-noexist-message" => "El elemento que actualizar no existe o se elimino previamente, para retornar al listado general de #plural presioné continuar en la parte inferior de este mensaje. ",
-    "edit-success-title" => "¡registro actualizado!",
-    "edit-success-message" => "Los datos de registro se <b>actualizaron exitosamente</b>, para retornar al listado general de #plural presioné el botón continuar en la parte inferior del presente mensaje.",
+    "edit-noexist-message" => "El elemento que intenta actualizar no existe o se eliminó previamente. Para retornar al listado general de registros, presione continuar en la parte inferior de este mensaje.",
+    "edit-success-title" => "¡Registro actualizado!",
+    "edit-success-message" => "Los datos de registro se actualizaron exitosamente. Para retornar al listado general de registros, presione el botón continuar en la parte inferior de este mensaje.",
     // - Registrations deleter
     "delete-denied-title" => "¡Advertencia!",
-    "delete-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para eliminar #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "delete-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para eliminar registros en esta plataforma. Contacte al departamento de soporte técnico para información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "delete-title" => "¡Eliminar registro!",
-    "delete-message" => "Para confirmar la eliminación del registro <b>%s</b>, presioné eliminar, para retornar al listado general de #plural presioné cancelar.",
+    "delete-message" => "Para confirmar la eliminación del registro <b>%s</b>, presione eliminar. Para retornar al listado general de registros, presione cancelar.",
     "delete-errors-title" => "¡Advertencia!",
-    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique e inténtelo nuevamente.",
     "delete-noexist-title" => "¡No existe!",
-    "delete-noexist-message" => "\El elemento que intenta eliminar no existe o se elimino previamente, para retornar al listado general de #plural presioné continuar en la parte inferior de este mensaje.",
-    "delete-success-title" => "¡#Singular eliminad@ exitosamente!",
-    "delete-success-message" => "La registro se elimino exitosamente, para retornar al listado de general de #plural presioné el botón continuar en la parte inferior de este mensaje.",
-    // - Registrations list
-    "list-denied-title" => "¡Advertencia!",
-    "list-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para acceder al listado general de #plural en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "delete-noexist-message" => "El elemento que intenta eliminar no existe o se eliminó previamente. Para retornar al listado general de registros, presione continuar en la parte inferior de este mensaje.",
+    "delete-success-title" => "¡Registro eliminado exitosamente!",
+    "delete-success-message" => "El registro se eliminó exitosamente. Para retornar al listado general de registros, presione el botón continuar en la parte inferior de este mensaje..",
+    // - Registrations list 
+    "list-denied-title" => "¡Advertencia!", 
+    "list-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para acceder al listado general de registros en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "list-title" => "Listado de preinscritos",
     "message-list-title" => "Recuerde",
-    "message-list-description" => "La pre-inscripción es el registro de los datos básicos del aspirante para la generación de la opción de pago (físico o en línea); y da paso a la inscripción una vez la entidad bancaria reporta el pago recibido a la Institución.",
+    "message-list-description" => "La pre-inscripción es el registro de los datos básicos del aspirante para la generación de la opción de pago (físico o en línea). Esta etapa da paso a la inscripción una vez que la entidad bancaria reporta el pago recibido a la Institución.",
     "notify-title" => "Notificar al preinscrito",
     "notify-subject" => "¡Gracias por tu interés en unirte a nuestra comunidad este es tu recibo de pago de inscripción!",
 ];

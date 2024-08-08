@@ -2,7 +2,7 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-07-18 06:39:25
+ * █ ░FRAMEWORK                                  2024-08-08 11:18:20
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Spaces\Editor\form.php]
  * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
@@ -41,7 +41,7 @@ $bootstrap = service('Bootstrap');
 $dates = service('Dates');
 $strings = service('strings');
 $authentication = service('authentication');
-$f = service("forms", array("lang" => "Spaces."));
+$f = service("forms", array("lang" => "Sie_Spaces."));
 //[Request]-----------------------------------------------------------------------------
 $row = $model->get_Spaces($oid);
 $r["space"] = $row["space"];

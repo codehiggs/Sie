@@ -3,9 +3,9 @@
 /*
  * **
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
- *  ** █ ░FRAMEWORK                                  2023-12-01 23:19:27
+ *  ** █ ░FRAMEWORK                                  2024-08-06 14:39:02
  *  ** █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Account\Views\Processes\Creator\deny.php]
- *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  *  ** █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  *  ** █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
@@ -18,6 +18,7 @@
  *  ** █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
  *  ** █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ *  ** █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  *  ** █ @link https://www.codehiggs.com
  *  ** █ @Version 1.5.0 @since PHP 7, PHP 8
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
@@ -34,10 +35,10 @@ return [
     "importer-label_attachment" => "Archivo a adjuntar",
     "importer-label_offset" => "Compensación",
     "importer-help_offset" => "Número de filas a omitir 2 próximo 102",
-    "importer-label_limit" => "Limite",
+    "importer-label_limit" => "Límite",
     "importer-help_limit" => "Número de filas a procesar",
     "importer-success-title" => "Importación exitosa!",
-    "importer-success-message" => "El archivo se importo exitosamente...",
+    "importer-success-message" => "El archivo se importó exitosamente...",
     // Fields
     "label_user" => "Código de usuario",
     "label_alias" => "Alias",
@@ -51,7 +52,7 @@ return [
     "label_phone" => "Teléfono",
     "label_birthday" => "Fecha de nacimiento (Cumpleaños)",
     "label_sex" => "Sexo",
-    "label_citizenshipcard" => "Cedula",
+    "label_citizenshipcard" => "Cédula",
     "label_expedition_date" => "Fecha de expedición ",
     "label_expedition_place" => "Lugar de expedición ",
     "label_fb-uid" => "Facebook UID",
@@ -60,12 +61,12 @@ return [
     "label_moodle-password" => "Contraseña en Moodle",
     "help_expedition_date" => "Fecha de expedición de la cédula",
     "label_notes" => "Notas",
-    "edit-denied-message" => "Su rol en la plataforma <b>no posee los privilegios necesarios para acceder a este componente</b>, para hacer uso del mismo al menos uno de sus roles en la plataforma deberá disponer del permiso <code>SECURITY-EDIT</code> o <code>SECURITY-EDIT-ALL</code>, solo un administrador del sistema podrá concederle tal nivel de acceso, por favor contacte al soporte técnico para solicitar a su rol le sean asignados los privilegios requeridos si es el caso, o presioné continuar para retornar al listado de usuarios. ",
+    "edit-denied-message" => "Su rol en la plataforma <b>no posee los privilegios necesarios para acceder a este componente</b>, para hacer uso del mismo al menos uno de sus roles en la plataforma deberá disponer del permiso <code>SECURITY-EDIT</code> o <code>SECURITY-EDIT-ALL</code>, solo un administrador del sistema podrá concederle tal nivel de acceso, por favor contacte al soporte técnico para solicitar a su rol le sean asignados los privilegios requeridos si es el caso, o presione continuar para retornar al listado de usuarios. ",
     "help_citizenshipcard" => "Número del documento de identificación (Obligatorio)",
     "help_phone" => "Número telefónico incluyendo prefijo de nacionalidad (Obligatorio)",
     "help_expedition_place" => "Generalmente el nombre textual de una ciudad (Obligatorio)",
-    "help_email" => "Correo electrónico valido (Obligatorio)",
-    "help_birthday" => "Fecha valida (Requerida)",
+    "help_email" => "Correo electrónico válido (Obligatorio)",
+    "help_birthday" => "Fecha válida (Requerida)",
     "help_alias" => "Alias o sobrenombre de usuario",
     "help_type" => "Predefinido (Profesor)",
     "help_password" => "Contraseña de acceso",
@@ -99,23 +100,23 @@ return [
     "profile-photo" => "Foto de perfil",
     //[list]------------------------------------------------------------------------------------------------------------
     'list-title' => 'Listado de profesores',
-    "list-info" => "Un usuario se define como una entidad identificable, que puede ser una persona, un sistema automatizado o incluso un bot, que se relaciona con un sistema o plataforma a través de una identidad validada y autenticada. Esta identidad, comúnmente referida como <b>cuenta de usuario</b>, está salvaguardada por elementos de seguridad denominados credenciales, que suelen consistir en un identificador de usuario y una contraseña.",
+    "list-info" => "Un usuario se define como una entidad identificable, que puede ser una persona, un sistema automatizado o incluso un bot, que se relaciona con un sistema o plataforma a través de una identidad validada y autenticada. Esta identidad, comúnmente referida como cuenta de usuario, está protegida por elementos de seguridad denominados credenciales, que generalmente consisten en un identificador de usuario y una contraseña.",
     // Users Editor
     "edit-errors-title" => "Datos incorrectos o faltantes",
-    "edit-errors-message" => "No fue posible actualizar la información del usuario seleccionado debido a que los datos proporcionados son incorrectos, o faltan datos que son requeridos para realizar este procedimiento. Por favor verifique eh inténtelo nuevamente. ",
+    "edit-errors-message" => "No fue posible actualizar la información del usuario seleccionado debido a que los datos proporcionados son incorrectos o faltan datos requeridos para realizar este procedimiento. Por favor, verifique e inténtelo nuevamente.",
     "edit-success-title" => "Actualización Exitosa!",
-    "edit-success-message" => "Los datos del perfil del usuario <b>%s</b> se actualizaron exitosamente, para continuar seleccione la opción según corresponda en la parte inferior de este mensaje. ",
+    "edit-success-message" => "Los datos del perfil del usuario <b>%s</b> se actualizaron exitosamente. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     // Users Create
     "create-title" => "Crear nuevo profesor",
     "create-errors-title" => "Advertencia",
-    "create-errors-message" => "No fue posible crear el nuevo usuario, debido a que los datos proporcionados son incorrectos, o faltan datos que son requeridos para realizar este procedimiento. Por favor verifique eh inténtelo nuevamente. ",
+    "create-errors-message" => "No fue posible crear el nuevo usuario debido a que los datos proporcionados son incorrectos o faltan datos requeridos para realizar este procedimiento. Por favor, verifique e inténtelo nuevamente.",
     "create-success-title" => "Usuario creado exitosamente!",
-    "create-success-message" => "El usuario <b>%s</b> se creo exitosamente, para continuar seleccione la opción según corresponda en la parte inferior de este mensaje. ",
+    "create-success-message" => "El usuario <b>%s</b> se creó exitosamente. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     // Users Delete
     "delete-title" => "Eliminar Usuario: %s",
-    "delete-message" => "Confirmación, ¿Realmente desea eliminar el usuario seleccionado <b>%s</b>?, para confirmar presioné eliminar, para retornar al listado general de usuarios activos presioné cancelar. ?",
+    "delete-message" => "Confirmación: ¿Realmente desea eliminar el usuario seleccionado <b>%s</b>? Para confirmar, presione eliminar; para retornar al listado general de usuarios activos, presione cancelar.",
     "delete-success-title" => "¡Usuario eliminado satisfactoriamente!",
-    "delete-success-message" => "El usuario seleccionado se elimino satisfactoriamente, para continuar presioné el botón en la parte inferior de este mensaje.",
+    "delete-success-message" => "El usuario seleccionado se eliminó satisfactoriamente. Para continuar, presione el botón en la parte inferior de este mensaje.",
     //[info]------------------------------------------------------------------------------------------------------------
     "users-info" => "Un usuario es una persona o entidad que interactúa con un sistema o plataforma para realizar actividades específicas.",
 ];

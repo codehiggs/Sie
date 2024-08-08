@@ -2,7 +2,7 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-04-30 03:13:16
+ * █ ░FRAMEWORK                                  2024-08-08 10:22:17
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Products\Delete\form.php]
  * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -40,7 +41,7 @@ $bootstrap = service("bootstrap");
 //[models]--------------------------------------------------------------------------------------------------------------
 //$model = model("App\Modules\Sie\Models\Sie_Products");
 //[vars]----------------------------------------------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Products."));
+$f = service("forms", array("lang" => "Sie_Products."));
 $r = $model->get_Product($oid);
 $name = urldecode($r["name"]);
 $message = sprintf(lang("Products.delete-message"), $name);

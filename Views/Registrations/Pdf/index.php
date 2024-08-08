@@ -12,7 +12,7 @@ $bootstrap = service('Bootstrap');
 $dates = service('Dates');
 $strings = service('strings');
 $authentication = service('authentication');
-$f = service("forms", array("lang" => "Registrations."));
+$f = service("forms", array("lang" => "Sie_Registrations."));
 //[models]--------------------------------------------------------------------------------------------------------------
 $mregistrations = model("App\Modules\Sie\Models\Sie_Registrations");
 $mprograms = model("App\Modules\Sie\Models\Sie_Programs");

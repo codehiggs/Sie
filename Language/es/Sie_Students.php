@@ -3,9 +3,9 @@
 /*
  **
  ** █ ---------------------------------------------------------------------------------------------------------------
- ** █ ░FRAMEWORK                                  2023-12-01 23:19:27
+ ** █ ░FRAMEWORK                                  2024-08-06 14:33:55
  ** █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Account\Views\Processes\Creator\deny.php]
- ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  ** █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  ** █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  ** █ ---------------------------------------------------------------------------------------------------------------
@@ -18,6 +18,7 @@
  ** █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  ** █ ---------------------------------------------------------------------------------------------------------------
  ** █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ ** █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  ** █ @link https://www.codehiggs.com
  ** █ @Version 1.5.0 @since PHP 7, PHP 8
  ** █ ---------------------------------------------------------------------------------------------------------------
@@ -42,8 +43,8 @@ return [
     "label_email" => "Correo Electrónico",
     "label_phone" => "Teléfono",
     "label_birthday" => "Fecha de nacimiento (Cumpleaños)",
-    "label_sex" => "Sexo",
-    "label_citizenshipcard" => "Cedula",
+    "label_sex" => "Sexo biológico",
+    "label_citizenshipcard" => "Cédula",
     "label_expedition_date" => "Fecha de expedición ",
     "label_expedition_place" => "Lugar de expedición ",
     "label_fb-uid" => "Facebook UID",
@@ -52,25 +53,25 @@ return [
     "label_moodle-password" => "Contraseña en Moodle",
     "help_expedition_date" => "Fecha de expedición de la cédula",
     "label_notes" => "Notas",
-    "edit-denied-message" => "Su rol en la plataforma <b>no posee los privilegios necesarios para acceder a este componente</b>, para hacer uso del mismo al menos uno de sus roles en la plataforma deberá disponer del permiso <code>SECURITY-EDIT</code> o <code>SECURITY-EDIT-ALL</code>, solo un administrador del sistema podrá concederle tal nivel de acceso, por favor contacte al soporte técnico para solicitar a su rol le sean asignados los privilegios requeridos si es el caso, o presioné continuar para retornar al listado de usuarios. ",
+    "edit-denied-message" => "Su rol en la plataforma <b>no posee los privilegios necesarios para acceder a este componente</b>. Para hacer uso del mismo, al menos uno de sus roles en la plataforma deberá disponer del permiso <code>SECURITY-EDIT</code> o <code>SECURITY-EDIT-ALL</code>. Solo un administrador del sistema podrá concederle tal nivel de acceso. Por favor, contacte al soporte técnico para solicitar que a su rol le sean asignados los privilegios requeridos, si es el caso, o presione continuar para retornar al listado de usuarios.",
     "help_citizenshipcard" => "Número del documento de identificación (Obligatorio)",
     "help_phone" => "Número telefónico incluyendo prefijo de nacionalidad (Obligatorio)",
     "help_expedition_place" => "Generalmente el nombre textual de una ciudad (Obligatorio)",
-    "help_email" => "Correo electrónico valido (Obligatorio)",
-    "help_birthday" => "Fecha valida (Requerida)",
+    "help_email" => "Correo electrónico válido (Obligatorio)",
+    "help_birthday" => "Fecha válida (Requerida)",
     "help_alias" => "Alias o sobrenombre de usuario",
     "help_type" => "Predefinido (Profesor)",
     "help_password" => "Contraseña de acceso",
-    "help_confirm" => "Confirmacion de la contraseña de acceso",
+    "help_confirm" => "Confirmación de la contraseña de acceso",
     "help_firstname" => "Nombres del usuario (Obligatorio)",
     "help_lastname" => "Apellidos del usuario (Obligatorio)",
-    "help_address" => "Direccion de residencia del usuario (Obligatorio)",
+    "help_address" => "Dirección de residencia del usuario (Obligatorio)",
     "help_reference" => "Referencia general",
     "help_notes" => "Notas u observaciones",
     "placeholder_expedition_place" => "Ciudad / Lugar de Expedición",
     "placeholder_alias" => "Alias",
     "placeholder_password" => "Contraseña",
-    "placeholder_confirm" => "Confirmacion",
+    "placeholder_confirm" => "Confirmación",
     "placeholder_firstname" => "Nombres",
     "placeholder_lastname" => "Apellidos",
     "placeholder_address" => "Dirección de residencia",

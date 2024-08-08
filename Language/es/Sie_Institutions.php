@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-07-14 04:22:15
+ * █ ░FRAMEWORK                                  2024-08-05 15:36:21
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Sie\Views\Institutions\Creator\index.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Jhon Alejandro Martinez Potes <jalejandromp1@hotmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -44,29 +45,29 @@ return [
     "label_address" => "Dirección",
     "label_phone" => "Teléfono",
     "label_email" => "Correo electrónico",
-    "label_author" => "author",
+    "label_author" => "Autor",
     "label_created_at" => "created_at",
     "label_updated_at" => "updated_at",
     "label_deleted_at" => "deleted_at",
-    "placeholder_institution" => "institution",
-    "placeholder_parent" => "parent",
-    "placeholder_name" => "name",
-    "placeholder_description" => "description",
-    "placeholder_address" => "address",
-    "placeholder_phone" => "phone",
-    "placeholder_email" => "email",
-    "placeholder_author" => "author",
+    "placeholder_institution" => "Institución",
+    "placeholder_parent" => "Principal",
+    "placeholder_name" => "Nombre legible",
+    "placeholder_description" => "Descripción",
+    "placeholder_address" => "Drirección",
+    "placeholder_phone" => "Teléfono",
+    "placeholder_email" => "Correo electrónico",
+    "placeholder_author" => "Autor",
     "placeholder_created_at" => "created_at",
     "placeholder_updated_at" => "updated_at",
     "placeholder_deleted_at" => "deleted_at",
-    "help_institution" => "institution",
-    "help_parent" => "parent",
-    "help_name" => "name",
-    "help_description" => "description",
-    "help_address" => "address",
-    "help_phone" => "phone",
-    "help_email" => "email",
-    "help_author" => "author",
+    "help_institution" => "Institución",
+    "help_parent" => "Principal",
+    "help_name" => "Nombre legible",
+    "help_description" => "Descripción",
+    "help_address" => "Dirección",
+    "help_phone" => "Teléfono",
+    "help_email" => "Correo electrónico",
+    "help_author" => "Autor",
     "help_created_at" => "created_at",
     "help_updated_at" => "updated_at",
     "help_deleted_at" => "deleted_at",
@@ -84,7 +85,7 @@ return [
 
     // - Institutions viewer
     "view-denied-title" => "¡Acceso denegado!",
-    "view-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para visualizar instituciones en esta plataforma. Contacte al departamento de soporte técnico para más información o para la asignación de los permisos necesarios. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "view-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para visualizar instituciones en esta plataforma. Contacte al departamento de soporte técnico para obtener más información o para la asignación de los permisos necesarios. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "view-title" => "Vista",
     "view-errors-title" => "¡Advertencia!",
     "view-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
@@ -95,7 +96,7 @@ return [
 
     // - Institutions editor
     "edit-denied-title" => "¡Advertencia!",
-    "edit-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para actualizar instituciones en esta plataforma. Contacte al departamento de soporte técnico para más información o para la asignación de los permisos necesarios. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "edit-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para actualizar instituciones en esta plataforma. Contacte al departamento de soporte técnico para obtener más información o para la asignación de los permisos necesarios. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "edit-title" => "Actualizar institución",
     "edit-errors-title" => "¡Advertencia!",
     "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",

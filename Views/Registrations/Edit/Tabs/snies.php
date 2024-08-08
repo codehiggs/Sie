@@ -29,7 +29,7 @@
  */
 //[services]------------------------------------------------------------------------------------------------------------
 $b = service("bootstrap");
-$f = service("forms", array("lang" => "Registrations."));
+$f = service("forms", array("lang" => "Sie_Registrations."));
 //[models]--------------------------------------------------------------------------------------------------------------
 //$model = model("App\Modules\Sie\Models\Sie_Registrations");
 $mprogams = model("App\Modules\Sie\Models\Sie_Programs");
